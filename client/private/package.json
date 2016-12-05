@@ -1,0 +1,52 @@
+{
+  "name": "museum_demo",
+  "version": "0.0.1",
+  "description": "Demo for Museum API FrontEnd",
+  "main": "gulpfile.js",
+  "private": true,
+  "scripts": {
+    "start": "webpack --progress --colors --watch",
+    "clean": "rm -rf ./dist",
+    "build": "npm run clean && webpack",
+    "deploy": "",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://mbl89@bitbucket.org/mlabgroup/museum_demo.git"
+  },
+  "author": "Michael Lubow",
+  "homepage": "https://bitbucket.org/mlabgroup/museum_demo#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.5.0",
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "browser-sync": "^2.17.2",
+    "browser-sync-webpack-plugin": "^1.1.3",
+    "css-loader": "^0.25.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "lost": "^7.1.0",
+    "node-sass": "^3.10.1",
+    "postcss-cssnext": "^2.8.0",
+    "postcss-loader": "^0.13.0",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.1"
+  },
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "classnames": "^2.2.5",
+    "font-awesome": "^4.7.0",
+    "lodash": "^4.16.4",
+    "normalize.css": "^5.0.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-loader": "^2.4.0",
+    "react-modal": "^1.5.2",
+    "reset.css": "^2.0.2"
+  }
+}

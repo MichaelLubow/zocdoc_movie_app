@@ -1,0 +1,15 @@
+.movieCardsContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding-top: 8%;
+  margin-bottom: 3%;
+}
+
+.hidden {
+  display: none;
+}

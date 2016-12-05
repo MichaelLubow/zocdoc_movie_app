@@ -1,0 +1,49 @@
+.movieInfoContainer{
+  min-height: 100%;
+  width: 50%;
+  border-right: 1px solid white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 13px;
+  &:last-child{
+    border-right:none;
+  }
+  .movieImage {
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  div {
+    margin-bottom: 20px;
+  }
+  .name {
+    text-overflow: ellipsis;
+    height: 30px;
+  }
+  .genreContainer {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    .genre {
+      margin-right: 10px;
+      font-size: 10px;
+    }
+  }
+
+  .descriptionContainer {
+    .description {
+      line-height: 20px;
+      text-align: left;
+      font-size: 12px;
+      height: 200px;
+      overflow: scroll;
+    }
+  }
+  .actorLabel, .descriptionLabel, .directorLabel {
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background: white;
+    color: black;
+    text-transform: uppercase;
+  }
+}

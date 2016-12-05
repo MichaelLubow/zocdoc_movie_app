@@ -1,0 +1,44 @@
+{
+  "name": "museum_demo",
+  "version": "0.0.1",
+  "description": "Demo for Museum API BackEnd",
+  "main": "./bin/www.js",
+  "private": true,
+  "bin": {
+    "museum_demo": "www.js"
+  },
+  "scripts": {
+    "start": "",
+    "clean": "",
+    "build": "",
+    "deploy": "",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://mbl89@bitbucket.org/mlabgroup/museum_demo.git"
+  },
+  "author": "Michael Lubow",
+  "homepage": "https://bitbucket.org/mlabgroup/museum_demo#readme",
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0"
+  },
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "body-parser": "^1.15.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "debug": "^2.2.0",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "express-session": "^1.14.1",
+    "morgan": "^1.7.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "serve-favicon": "^2.3.0"
+  }
+}

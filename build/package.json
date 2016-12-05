@@ -1,0 +1,26 @@
+{
+  "name": "museum_demo",
+  "version": "0.0.1",
+  "description": "Demo for Museum API",
+  "main": "gulpfile.js",
+  "private": true,
+  "scripts": {
+    "start": "(cd ../client/private && npm start) & (gulp nodemon) &",
+    "stop": "",
+    "clean": "",
+    "build": "",
+    "deploy": "",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://mbl89@bitbucket.org/mlabgroup/museum_demo.git"
+  },
+  "author": "Michael Lubow",
+  "homepage": "https://bitbucket.org/mlabgroup/museum_demo#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1"
+  },
+  "dependencies": {}
+}

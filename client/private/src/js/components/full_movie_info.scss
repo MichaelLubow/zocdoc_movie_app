@@ -1,0 +1,97 @@
+$secondaryColor: #bbb;
+.fullMovieInfoContainer {
+  position: relative;
+  .movieImage {
+    height: 225px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .primaryInfoSection {
+    margin-bottom: 40px;
+    .name {
+      font-size: 35px;
+      font-weight: bold;
+      margin-bottom: 5px;
+      width: 77%;
+    }
+
+    .duration {
+      color: $secondaryColor;
+      display: inline-block;
+      margin-right: 20px;
+    }
+
+    .genreContainer {
+      display: inline-block;
+      color: $secondaryColor;
+      .genre {
+        display: inline-block;
+        margin-left: 20px;
+        font-size: 12px;
+      }
+    }
+  }
+
+  .rankingContainer {
+    .rankingLabel {
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+  }
+
+  .descriptionContainer {
+    margin-bottom: 40px;
+    width: 77%;
+    .descriptionLabel {
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    .description {
+      line-height: 30px;
+      font-size: 14px;
+    }
+  }
+
+  .creatorsContainer {
+    .directorContainer {
+      margin-bottom: 20px;
+      .directorLabel {
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: bold;
+        display: inline-block;
+        margin-right: 20px;
+      }
+      .director {
+        display: inline-block;
+        margin-left: 9px;
+        font-size: 12px;
+      }
+    }
+    .actorContainer {
+      display: flex;
+      align-items: baseline;
+      .actorLabel {
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: bold;
+        display: inline-block;
+        margin-right: 20px;
+      }
+      .actorNameContainer {
+        width: 72%;
+        .actor {
+          display: inline-block;
+          margin-left: 20px;
+          margin-bottom: 10px;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

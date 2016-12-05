@@ -1,0 +1,33 @@
+.appContainer {
+
+}
+
+.modalContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: rgb(255, 255, 255);
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 40px;
+  width: 60%;
+  transform: translate(-50%, -50%);
+  height: 500px;
+  background: radial-gradient(circle at 0.42% 97.86%, #111b21, transparent 100%),radial-gradient(circle at 99.93% 45%, #000000, transparent 100%),radial-gradient(circle at 69.38% 15%, #181a3d, transparent 100%),radial-gradient(circle at 50% 50%, #ffffff, #ffffff 100%);
+  color: white;
+}
+
+.modalOverlay{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: rgba(0,0,0,0.6);
+  z-index: 3;
+}
+
+
+
+
